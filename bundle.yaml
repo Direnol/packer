@@ -1,0 +1,17 @@
+api_endpoint: api.cloud.yandex.net:443
+skip_tls_verify: false
+kms_private_endpoint: ""
+kms_private_skip_tls_verify: false
+kms_key_uri: yc-kms://abj0qsns8io80tr8k82b
+encrypted_dek: AAAAAQAAABRhYmplMmkwdjZnZWcwNTV2cWg0aQAAABBXePM8JGSsW+l0zmA7scD/AAAADLfgou9Q7gXdegy1iF7Fh53a6cJN9lolbS4Cf8TjrcjXcxSEAT40DQxpiX3VtOpL6pR5JwCPOX3STvCv61eTdpc/TyLAUqcsi3aSGTY3ULNLuWgPTePq9wRzhVcQ
+secrets:
+  - path: /root/.aws/credentials
+    ciphertext: !!binary |
+        kT5T5KQXvgOBLwOJXRT1BEaer6wtDe8o3GJSdnmU3X2jBhe5OmicOa5dzFDzVuxUNE7wfv
+        56QofcC3UEzpdL5wBzlgEtdGgx3SXsbMsZ5VRelAuVyCcdxe2lGHl/wAo/0kjEN/ptB8c1
+        +1W2IBZmuoShvsnwosQhWHxLX9xxbbdGiVA1
+    mode: 0
+    uid: 0
+    gid: 0
+enc_mode: DETERMINISTIC
+force: false

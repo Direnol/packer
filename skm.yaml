@@ -1,0 +1,18 @@
+debug: false
+yc_kms:
+  oauth_token:
+    env_var: YC_TOKEN
+yav_token:
+  env_var: YAV_TOKEN
+kek:
+  kms:
+    key_uri: "yc-kms://abj0qsns8io80tr8k82b"
+
+encrypted_dek: "AAAAAQAAABRhYmplMmkwdjZnZWcwNTV2cWg0aQAAABBXePM8JGSsW+l0zmA7scD/AAAADLfgou9Q7gXdegy1iF7Fh53a6cJN9lolbS4Cf8TjrcjXcxSEAT40DQxpiX3VtOpL6pR5JwCPOX3STvCv61eTdpc/TyLAUqcsi3aSGTY3ULNLuWgPTePq9wRzhVcQ"
+
+secrets:
+  - path: "/root/.aws/credentials"
+    source:
+        yav:
+            secret_id: "sec-01eqx2sf6dt6pn3yhqajh24fa5"
+            key: "credentials"
